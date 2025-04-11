@@ -1,0 +1,18 @@
+/* Combined CSS file including bootstrap, fontawesome, magnific-popup, swiper, and custom styles */
+@import 'bootstrap.css';
+@import 'fontawesome-all.css';
+@import 'magnific-popup.css';
+@import 'swiper.css';
+@import 'styles.css';
+
+/* Override spinner styles */
+.spinner-wrapper {
+    display: none; /* Hide spinner by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 999999;
+} 
